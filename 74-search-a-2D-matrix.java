@@ -16,8 +16,8 @@ class Solution {
 
         while(left <= right) {
             int mid = left + (right - left) / 2;
-            int row = mid / 2;
-            int col = mid % 2;
+            int row = mid / n;
+            int col = mid % n;
 
             if(matrix[row][col] == target) {
                 return true;
