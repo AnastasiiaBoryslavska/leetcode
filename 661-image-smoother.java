@@ -10,7 +10,7 @@
  * <p>
  * Note: Similar to "289. Game of Life"
  */
-class Solution {
+class Solution661 {
     private static final int[][] DIRS = {{0, 1}, {1, 1}, {1, 0}, {1, -1}, {0, -1}, {-1, -1}, {-1, 0}, {-1, 1}};
 
     public int[][] imageSmoother(int[][] img) {
